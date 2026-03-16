@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const { Telegraf } = require("telegraf");
 const http = require('http'); // Load the http module
 
@@ -127,4 +126,4 @@ console.log("EthioGuesser Bot is running...");
 // Enable graceful stop
 process.once('SIGINT', () => bot.stop('SIGINT'));
 process.once('SIGTERM', () => bot.stop('SIGTERM'));
->>>>>>> 22289ba (Initial commit)
+
