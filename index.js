@@ -70,7 +70,6 @@ console.log("EthioGuesser Bot is running...");
 // Enable graceful stop
 process.once('SIGINT', () => bot.stop('SIGINT'));
 process.once('SIGTERM', () => bot.stop('SIGTERM'));
-=======
 const { Telegraf } = require("telegraf");
 
 const bot = new Telegraf("8440444822:AAF64IUowmS6YgZuVqfxslnP-jY8AJ7BZTs");
