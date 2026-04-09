@@ -13,7 +13,7 @@ server.listen(PORT, () => {
 
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
 
-const PLAY_URL = "https://ethioguesser.lesymesfin.workers.dev/";
+const PLAY_URL = "https://ethioguesser.com/";
 
 bot.start(async (ctx) => {
   try {
@@ -62,3 +62,5 @@ console.log("EthioGuesser Bot is running...");
 
 process.once("SIGINT", () => bot.stop("SIGINT"));
 process.once("SIGTERM", () => bot.stop("SIGTERM"));
+
+
